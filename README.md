@@ -6,6 +6,8 @@ A lightweight manual dark mode toggle for any website.
 
 This extension does only one thing — and does it well.
 
+Some sites require stronger CSS overrides.
+
 ---
 
 ## Security
