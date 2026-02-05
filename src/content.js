@@ -6,14 +6,33 @@ function applyDarkMode() {
   const style = document.createElement("style");
   style.id = "simple-dark-mode-style";
   style.textContent = `
-    html, body {
-      filter: invert(1) hue-rotate(180deg) !important;
-      background-color: #111 !important;
-    }
+  :root {
+  color-scheme: dark !important;
+}
 
-    // img, video, iframe {
-    //   filter: invert(1) hue-rotate(180deg) !important;
-    // }
+      html {
+    background: #111 !important;
+  }
+
+  body {
+    background: #444 !important;
+  }
+
+  a {
+  color: #7ec27e !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    background-color: #444 !important;
+  color: #ddd !important;
+  border-color: #444 !important;
+}
+
+h1, h2, h3, h4, h5, h6, div, span, section, article, header, footer, nav, main, form, dl, dt, dd {
+  background-color: #444 !important;
+  color: #ddd !important;
+  border-color: #444 !important;
+}
   `;
 
   document.documentElement.appendChild(style);
