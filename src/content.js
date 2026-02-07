@@ -10,7 +10,7 @@ function applyDarkMode() {
   color-scheme: dark !important;
 }
 
-      html {
+  html {
     background: #111 !important;
   }
 
@@ -22,13 +22,7 @@ function applyDarkMode() {
   color: #7ec27e !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    background-color: #444 !important;
-  color: #ddd !important;
-  border-color: #444 !important;
-}
-
-h1, h2, h3, h4, h5, h6, div, span, section, article, header, footer, nav, main, form, dl, dt, dd {
+  h1, h2, h3, h4, h5, h6, div, span, section, article, header, footer, nav, main, form, dl, dt, dd {
   background-color: #444 !important;
   color: #ddd !important;
   border-color: #444 !important;

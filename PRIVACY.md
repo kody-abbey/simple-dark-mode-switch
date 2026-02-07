@@ -1,6 +1,16 @@
 # Privacy Policy – Simple Dark Mode Switch
 
-Last updated: 2026
+Last updated: 2026-02-08
+
+- [Privacy Policy – Simple Dark Mode Switch](#privacy-policy--simple-dark-mode-switch)
+  - [Overview](#overview)
+  - [Data Storage](#data-storage)
+  - [Permissions Explanation](#permissions-explanation)
+    - [activeTab](#activetab)
+    - [storage](#storage)
+  - [No Tracking](#no-tracking)
+  - [Third-Party Services](#third-party-services)
+  - [Changes to This Policy](#changes-to-this-policy)
 
 ---
 
@@ -16,7 +26,7 @@ This extension does NOT collect, transmit, or store personal data.
 
 The extension stores only one type of data:
 
-- A list of domains where the user has enabled dark mode
+- A mapping of domains to dark mode ON/OFF preferences
 
 This data is stored locally using the browser's extension storage API.
 
