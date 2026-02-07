@@ -1,5 +1,3 @@
-console.log("CONTENT SCRIPT LOADED");
-
 function applyDarkMode() {
   if (document.getElementById("simple-dark-mode-style")) return;
 
