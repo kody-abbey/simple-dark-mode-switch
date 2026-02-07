@@ -45,10 +45,14 @@ toggleBtn.addEventListener("click", async () => {
 
   updateUI(newState);
 
-  // Reload tab to apply content script again
   const tabs = await browser.tabs.query({ active: true, currentWindow: true });
-  browser.tabs.reload(tabs[0].id);
+
+  browser.tabs.sendMessage(tabs[0].id, {
+    type: "TOGGLE_DARK_MODE",
+    enabled: newState
+  });
 });
+
 
 // Initialize
 loadState();
