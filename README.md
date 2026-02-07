@@ -1,12 +1,13 @@
-# 🌙 Simple Dark Mode Switch
+# 🌙 Soft Dark
 
 A lightweight, universal dark mode extension for Firefox.
 
-- [🌙 Simple Dark Mode Switch](#-simple-dark-mode-switch)
+- [🌙 Soft Dark](#-soft-dark)
   - [✨ Overview](#-overview)
   - [🚀 Features](#-features)
   - [🧠 Philosophy](#-philosophy)
   - [🖱 Usage](#-usage)
+  - [❤️ Support](#️-support)
   - [⚠ Limitations](#-limitations)
   - [🔒 Privacy](#-privacy)
     - [Privacy Policy](#privacy-policy)
@@ -15,7 +16,7 @@ A lightweight, universal dark mode extension for Firefox.
 
 ## ✨ Overview
 
-Minimal Dark Mode is a simple browser extension that forces websites into a dark color scheme.
+Soft Dark is a simple browser extension that forces websites into a dark color scheme.
 
 It focuses on:
 
@@ -53,6 +54,17 @@ Make websites darker quickly and efficiently, even if layout imperfections remai
 3. Toggle dark mode ON / OFF
 
 That’s it.
+
+## ❤️ Support
+
+If Soft Dark makes your browsing more comfortable, please consider supporting development.
+
+Soft Dark is a free project maintained by an independent developer.
+
+👉 [Support on Ko-fi](https://ko-fi.com/kodyabbey)
+
+Thank you for using Soft Dark!
+
 
 ## ⚠ Limitations
 
