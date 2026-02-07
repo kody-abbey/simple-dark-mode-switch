@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "author": "Kody Abbey",
-  "name": "Simple Dark Mode Switch",
+  "author": "Kody",
+  "name": "Soft Dark",
   "version": "0.1.0",
   "description": "Lightweight manual dark mode toggle per domain.",
 
