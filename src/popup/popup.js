@@ -4,8 +4,12 @@ const toggleBtn = document.getElementById("toggleBtn");
 // ===== Get current active tab =====
 async function getCurrentDomain() {
   const tabs = await browser.tabs.query({ active: true, currentWindow: true });
-  const url = new URL(tabs[0].url);
-  return url.hostname;
+  try {
+    const url = new URL(tabs[0].url);
+    return url.hostname;
+  } catch {
+    return null;
+  }
 }
 
 // ===== Update UI =====
