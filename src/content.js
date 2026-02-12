@@ -29,7 +29,7 @@ a:focus {
   outline: 2px solid #f38bb6 !important;
 }
 
-  h1, h2, h3, h4, h5, h6, div, span, section, article, header, footer, nav, main, form, dl, dt, dd {
+  h1, h2, h3, h4, h5, h6, div, span, section, article, header, footer, nav, main, form, dl, dt, dd, ul, li {
   background-color: #121212 !important;
   color: #e0e0e0 !important;
   border-color: #444 !important;
